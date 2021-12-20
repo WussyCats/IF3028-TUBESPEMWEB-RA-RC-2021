@@ -1,0 +1,112 @@
+		
+		.font{
+          position: center;
+			font-family: sans-serif;  
+            height: auto;
+			width: auto;
+			text-align: center;
+			font-size: 25pt;
+        }
+		.f {
+
+			font-family: sans-serif;
+			font-size: 12px;
+			margin-left: 0%;
+			width: 60%;
+
+
+		}
+		body{
+			margin: center;
+			position: center;
+			padding: 0;
+			font-family: sans-serif;
+			background-color: transparent;
+
+		}
+
+	
+
+		.box{
+		
+			margin-left: 25%;
+			margin-right: 25%;
+			margin-top: 0%;
+			margin-bottom:5% ;
+			background:transparent;
+	
+		}
+
+		
+		
+
+
+		.buat {
+			text-align: right;
+			background: rgb(211, 26, 26);
+			color: white;
+			margin-bottom: 5pt;
+			font-family: sans-serif;
+			padding: 10px;
+			border: 3px solid;
+	
+
+		}
+		.k{
+		
+			text-align: right;
+			
+			background:transparent;
+		}
+		
+        
+
+		
+		textarea{
+			size: 50%;
+			text-align: justify;
+			border-right: 25%;
+			margin-bottom: 5pt;
+			font-family: sans-serif;
+			padding: 10px;
+			border: 3px solid;
+		
+		}
+
+
+		.aspk {
+
+			margin:center;
+			margin-bottom: 5pt;
+			font-family: sans-serif;
+			padding: 10px;
+			border: 3px solid;
+	
+
+		}
+
+		.input{
+		
+
+			margin-bottom: 5pt;
+		
+		}
+		.up{
+			font-family: sans-serif;
+			background: transparent;
+			outline: none;
+			color: rgb(155, 157, 160);
+			
+
+		}
+
+		::-webkit-file-upload-button{
+			color:black;
+			background: white;
+			padding: 10px;
+			border: 3px solid;
+
+		}
+	
+		
+
