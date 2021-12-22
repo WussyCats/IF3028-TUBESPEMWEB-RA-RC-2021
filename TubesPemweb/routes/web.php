@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\laporancontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//    return view('welcome');
+// });
+
+Route::get('/', [laporancontroller::class,'index']);
+Route::get('/create', [laporancontroller::class,'create']);
+Route::post('/store', [laporancontroller::class,'store']);
+Route::get('/show/{id}', [laporancontroller::class,'show']);
+Route::get('/show2/{id}', [laporancontroller::class,'show2']);
+Route::post('/update/{id}', [laporancontroller::class,'update']);
+Route::get('/destroy/{id}', [laporancontroller::class,'destroy']);
