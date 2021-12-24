@@ -1,0 +1,35 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.isi {
+    text-align:justify;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+.penutup{
+    float: left;
+   
+
+}
+.penutup span {
+    padding-left: none;
+}
+a {
+    list-style: none;
+}
+.hapus {
+    margin-left: 250px;
+}
+.edit {
+    margin-left: 10px;
+}
+p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
